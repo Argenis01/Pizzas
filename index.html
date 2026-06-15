@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pizza — ¡Sabor que Enamora!</title>
+  <title>Pizza — ¡Las mejores pizzas del itsmo!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -146,7 +146,7 @@
   </header>
 
   <section class="hero">
-    <h1>¡Sabor que Enamora!</h1>
+    <h1>¡Las mejores pizzas del itsmo!</h1>
     <p>Pizzas artesanales, especialidades de mariscos y los mejores combos familiares.</p>
   </section>
 
@@ -262,19 +262,19 @@
 
   <footer>
     <h3> Pizza</h3>
-    <p>Sabor que Enamora</p>
+    <p>¡Las mejores pizzas del itsmo!</p>
     <p>Transistmica 299, , Salina Cruz</p>
     <p>971 000 0000 | 971 000 0000</p>
     <p>Horario: 12:30 a 10:00pm</p>
   </footer>
 
   <script>
-    const WA_NUMBER = "529711130883";
+    const WA_NUMBER = "529711872883";
     const PRODUCTOS = [
       
     { id: 101, nombre: "Pizza Carnes Frías", precio: 105, info: "Salami, Jamón, Pepperoni, Tocino y Salchicha", imagen: "imagenes/carnes-frias.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 102, nombre: "Pizza Hawaiana", precio: 105, info: "Clásica de Jamón y Piña", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
-    { id: 103, nombre: "Pizza Dely Especial", precio: 105, info: "Pierna, Chile Poblano, Pollo y Chorizo", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
+    { id: 103, nombre: "Pizza Especial", precio: 105, info: "Pierna, Chile Poblano, Pollo y Chorizo", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 104, nombre: "Pizza Combinada", precio: 105, info: "Champiñón, Jamón, Salami, Cebolla, Chorizo y Pimiento Verde", imagen: "imagenes/carnes-frias.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 105, nombre: "Pizza Al Pastor", precio: 105, info: "Carne al Pastor, Cebolla, Piña y Chipotle", imagen: "imagenes/pastor.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 106, nombre: "Pizza Mexicana", precio: 105, info: "Pierna, Pollo, Jalapeño y Aguacate", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
@@ -285,7 +285,7 @@
     { id: 111, nombre: "Pizza Peperoni", precio: 105, info: "Pepperoni y Queso", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 112, nombre: "Pizza Vegetariana", precio: 105, info: "Champiñón, Pimiento Verde, Cebolla, Piña y Elote", imagen: "imagenes/hawaiana.jpg", cat: "especialidades", tipo: "pizza" },
     { id: 113, nombre: "Pizza de Camarón", precio: 130, info: "Camarón y Queso (CH: $130 GDE: $250)", imagen: "imagenes/hawaiana.jpg", cat: "mariscos", tipo: "mariscos" },
-    { id: 114, nombre: "Pizza Mar y Tierra", precio: 135, info: "Cebolla, Aceituna, Camarón y Calamar (CH: $135 GDE: $260)", imagen: "imagenes/hawaiana.jpg", cat: "mariscos", tipo: "mariscos" },
+    { id: 114, nombre: "Pizza Marinera", precio: 135, info: "Cebolla, Aceituna, Camarón y Calamar (CH: $135 GDE: $260)", imagen: "imagenes/hawaiana.jpg", cat: "mariscos", tipo: "mariscos" },
       
     { id: 201, nombre: "Paquete 1: Pizza Cuadrada", precio: 360, info: "Pizza Grande de 16 rebanadas (Orilla Rellena de Queso Incluida), Hasta 2 Combinaciones (Excepto Mariscos) + 1 Refresco de 2L", imagen: "imagenes/combo1.jpg", cat: "combos", tipo: "combo" },
     { id: 202, nombre: "Paquete 2: Pizza Mega", precio: 415, info: "Pizza Grande de 24 rebanadas (Orilla Rellena de Queso Incluida), Hasta 4 Combinaciones (Excepto Mariscos) + 1 Refresco de 2L", imagen: "imagenes/combo1.jpg", cat: "combos", tipo: "combo" },    
@@ -610,7 +610,7 @@
 
     function enviarPedido() {
       if (carrito.length === 0) return;
-      let msj = " *Hola Me Gustaria Ordenar Este Pedido - DELY'S PIZZA*\n\n";
+      let msj = " *Hola Me Gustaria Ordenar Este Pedido - PIZZA*\n\n";
       let total = 0;
       carrito.forEach(i => {
         msj += `• *${i.nombre}* x${i.qty}\n   ${i.info ? i.info : ''}\n   Subtotal: $${i.precio * i.qty}\n\n`;
